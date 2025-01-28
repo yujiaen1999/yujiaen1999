@@ -1,0 +1,7 @@
+I"<p>Using graph models, we track the development of financial networks over the 20th century.</p>
+
+<p>Correlation networks are a widely used analysis tool for equities. We investigate alternative strategies for generating edges between stocks. Further, we probe these networks to understand how well they explain correlations, without using historical data. Using a Kronecker Graph model, we model the development of these networks over the 20th century. To the best of our knowledge, this is the first work investigating how correlation networks evolve over long periods of time. To the best of our knowledge, this is the first work investigating how correlation networks evolve over long periods of time.</p>
+
+<p><a href="/pdfs/cs224w.pdf" target="_blank">CS224W Paper</a></p>
+
+:ET

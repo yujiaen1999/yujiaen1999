@@ -1,0 +1,14 @@
+I"_<p>Making a 6-DoF PUMA arm solve a maze with real-time vision and tracking.</p>
+
+<p>The final project combined real-time vision, planning, and control into a success project for our Experimental Robotics Graduate class.</p>
+
+<p><a href="/pdfs/cs225a.pdf" target="_blank">CS225A Paper</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=UcLmpWmIVzE">Short demo video on YouTube</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=MgCWEkhtqiQ">Longer demo video on YouTube</a></p>
+
+<center>
+<iframe src="http://www.youtube.com/embed/MgCWEkhtqiQ" frameborder="0" height="315" width="560"></iframe>
+</center>
+:ET

@@ -1,0 +1,9 @@
+I"'<p>An implementation of <a href="https://www.ncbi.nlm.nih.gov/pubmed/22522657">Faster STORM using compressed sensing</a>.</p>
+
+<p>In order to understand the method, I implemented the presented techniques in simulation in Python. The code may be useful to better understand how STORM works, how compressed sensing can be applied to tackle the problem, and compare various experimental techniques.</p>
+
+<p><a href="/pdfs/cs371.pdf" target="_blank">CS371 Slides</a></p>
+
+<p><a href="https://github.com/leonidk/cs371" target="_blank">Source Code</a></p>
+
+:ET

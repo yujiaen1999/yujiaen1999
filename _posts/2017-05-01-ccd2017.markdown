@@ -3,7 +3,7 @@ layout: post
 title:  "Intel RealSense Stereoscopic Depth Cameras"
 date:   2017-05-01 21:21:53 +00:00
 image: /images/ccd2017.png
-categories: research
+categories: N/A
 authors: "<strong>Leonid Keselman</strong>, John Iselin Woodfill, Anders Grunnet-Jepsen, Achintya Bhowmik"
 subtitle: "CCD 2017"
 venue: "CVPR Workshops (Computational Cameras and Displays)"

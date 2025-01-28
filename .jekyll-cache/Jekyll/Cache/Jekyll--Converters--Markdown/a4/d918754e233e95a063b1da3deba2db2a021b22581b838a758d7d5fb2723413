@@ -1,0 +1,5 @@
+I"Œ<p>Technical and design details of the Intel RealSense R200 and D400 series</p>
+
+<p>I wrote a paper describing the details of a family of RGBD cameras, ASICs and algorithms produced by Intel. It was submitted and accepted to CCD 2017, a CVPR 2017 Workshop. My coauthors were all senior management at Intel and the paper was written to inform the academic community of issues, challenges and priorities in building stereoscopic depth cameras for production use. We highlight state-of-the-art performance on modern datasets, on certain metrics, along with establishing baselines for new datasets and evaluation metrics for depth cameras in general.</p>
+
+:ET

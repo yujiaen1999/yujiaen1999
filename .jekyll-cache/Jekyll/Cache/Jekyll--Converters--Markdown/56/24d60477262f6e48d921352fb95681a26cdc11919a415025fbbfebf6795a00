@@ -1,0 +1,4 @@
+I"R<p>Work with <a href="https://schubert.io/">Ludwig Schubert</a> on simplified encoders stages for text summarization.</p>
+
+<p>Abstractive text summarization is a blossoming area of natural language processing research in which short textual summaries are generated from longer input documents. Existing state-of-the-art methods take long time to train, and are limited to functioning on relatively short input sequences. We evaluate neural network architectures with simplified encoder stages, which naturally support arbitrarily long input sequences in a computationally efficient manner.</p>
+:ET
