@@ -11,4 +11,4 @@ venue: "[In Submission]"
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
 ---
-ClearMind is xxxxx
+Introduction to ClearMind
