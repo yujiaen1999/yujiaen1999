@@ -479,7 +479,26 @@
           </tr>
         </table>
 
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9D2vUhgi69Z9TZpOedlQ9mXFInmsmX2qWcQfkasCu1Q"></script>
+        <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9D2vUhgi69Z9TZpOedlQ9mXFInmsmX2qWcQfkasCu1Q"></script> -->
+
+        <div id="clustrmaps-container">
+          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9D2vUhgi69Z9TZpOedlQ9mXFInmsmX2qWcQfkasCu1Q"></script>
+      </div>
+      
+      <style>
+        #clustrmaps-container {
+          width: 300px;  /* 设定宽度 */
+          height: 300px; /* 设定高度 */
+          overflow: hidden;  /* 隐藏超出的部分 */
+          position: relative;
+        }
+      
+        #clustrmaps-container canvas {
+          width: 100% !important; /* 让其适应父容器 */
+          height: 100% !important;
+        }
+      </style>
+      
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
