@@ -1,3 +1,3 @@
-# 👋 Hi, This is Jiaen Yu!
+# 👋 Hi, I'm Jiaen Yu!
 🎓 **Ph.D. Student** in Data Science at the University of California, San Diego  
-🌐 Check out my personal website: [yujiaen1999.github.io](https://yujiaen1999.github.io/yujiaen1999) 
+🌐 Check out my website: [jiaenyu.com](http://jiaenyu.com/) 
