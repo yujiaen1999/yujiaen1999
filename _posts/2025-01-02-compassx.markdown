@@ -11,6 +11,7 @@ venue: "ACM SIGCSE TS"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
-poster: https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/158/Student-Usage-of-Metacognition-Promoting-Tool-in-a-CS2-Course-and-its-Relationship-wi
+poster: /pdfs/CompassX-poster-SIGCSE2025-v3.pdf
+shortpaper: https://dl.acm.org/doi/10.1145/3641555.3705256
 ---
 CompassX is a web-based learning application designed to promote metacognitive study behaviors among students in computing courses. CompassX helps students engage in all three key phases of metacognition: planning, monitoring, and reflection. We applied this tool to explore how students interact with these features and examines the relationship between metacognitive engagement and academic performance, offering insights into the potential of metacognitive tools for enhancing learning outcomes​.

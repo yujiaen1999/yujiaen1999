@@ -159,6 +159,19 @@
               <h2>🎉 News</h2>
               <ul>
                 <li>
+                  <strong>Apr. 2025</strong> – Our paper on <em>CompassX</em> was accepted to <em>ASEE Conference 2025</em>!
+                </li>
+                
+                <li>
+                  <strong>Apr. 2025</strong> – Our paper on <em>ClearMind</em> was accepted to <em>ASEE Conference 2025</em>!
+                </li>
+
+                <li>
+                  <strong>Mar. 2025</strong> - I served as a panelist at the <a href="https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind">CCSC Southwestern 2025</a> conference, sharing our work on <em>ClearMind</em>.
+                </li>
+                <!-- https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind -->
+
+                <li>
                   <strong>Jan. 2025</strong> - I will serve as a Student Volunteer for <a href="https://sigcse2025.sigcse.org/">SIGCSE TS 2025</a>! See you in Pittsburgh!
                 </li>
                 <!-- https://sigcse2025.sigcse.org/ -->
@@ -227,6 +240,12 @@
                 {% if post.website %}
                 <a href="{{ post.website }}" style="margin-right:5px;">website</a>
                 {% endif %}
+                {% if post.paper %}
+                <a href="{{ post.paper }}" style="margin-right:5px;">paper</a>
+                {% endif %}
+                {% if post.shortpaper %}
+                <a href="{{ post.shortpaper }}" style="margin-right:5px;">short paper</a>
+                {% endif %}
               </p>
             </td>
           </tr>
@@ -291,6 +310,12 @@
               {% endif %}
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{ post.paper }}" style="margin-right:5px;">paper</a>
+              {% endif %}
+              {% if post.shortpaper %}
+              <a href="{{ post.shortpaper }}" style="margin-right:5px;">short paper</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -473,7 +498,10 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Academic Service</h2>
               <ul>
-                <li>PC Reviewer for ACM SIGCSE TS 2025</li>
+                <li>PC Reviewer, <em>ACM SIGCSE TS 2025</em></li>
+                <li>Panelist, <em>CCSC Southwestern Conference 2025</em> – <a href="https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind">“Overcoming Procrastination: The Impact and Opportunities of ClearMind”</a></li>
+
+                <!-- <li>PC Reviewer for ACM SIGCSE TS 2025</li> -->
                 <!-- <li>Content 2</li>
                 <li>Content 3</li> -->
               </ul>
