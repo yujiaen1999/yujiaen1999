@@ -12,6 +12,36 @@
     gtag('config', 'G-YSL8SGCT2W');
   </script>
 
+  <style>
+.responsive-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.left-column {
+  width: 40%;
+  padding: 2.5%;
+  box-sizing: border-box;
+}
+
+.right-column {
+  width: 60%;
+  padding: 2.5%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
+
+  </style>
+
+
 
   <!-- Google tag (gtag.js)
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
@@ -60,9 +90,11 @@
                 Jiaen Yu
               </h1>
               <p>
-                I am a first year PhD student in the <a href="https://datascience.ucsd.edu//">Halıcıoğlu Data Science Institute (HDSI)</a> at University of California San Diego, advised by Dr. <a href="https://datascience.ucsd.edu/people/soohyun-nam-liao/">Soohyun Nam Liao</a>. 
+                I am a <s>first</s> second year PhD student in the <a href="https://datascience.ucsd.edu//">Halıcıoğlu Data Science Institute (HDSI)</a> at University of California San Diego, advised by Dr. <a href="https://datascience.ucsd.edu/people/soohyun-nam-liao/">Soohyun Nam Liao</a>. 
                 <!-- My research interest including xxxxxx. I'm also interested in xxxxx. -->
-                My research interest lies in Computing Education, including educational data mining and development of interactive systems or tools with human-centered design to support students.
+                My research interests lie in Computing Education, including <strong>educational data mining</strong>, 
+                <strong>human-centered tool design</strong>, and <strong>AI-based approaches</strong> to support learning at scale.
+                <!-- and development of interactive systems or tools with human-centered design to support education. -->
               </p>
               <!-- Educational data mining -->
 <!-- 
@@ -89,12 +121,12 @@
               <p style="text-align:center">
                 <!-- <a href="https://github.com/yujiaen1999">GitHub</a> &nbsp;/&nbsp; -->
 
-                <a href="https://github.com/yujiaen1999">
+                <!-- <a href="https://github.com/yujiaen1999">
                   <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle; margin-right:5px;">
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.22 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
                   </svg>
                   GitHub
-                </a> &nbsp;/&nbsp;
+                </a> &nbsp;/&nbsp; -->
                 <a href="https://www.linkedin.com/in/jiaenyu-ucsd">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width:16px; height:16px; vertical-align:middle; margin-right:5px;">
                   LinkedIn
@@ -135,10 +167,34 @@
           </tr>
         </table>
 
+        <div class="responsive-container">
+          <!-- 左侧：Education -->
+          <div class="left-column">
+            <h2>🎓 Education</h2>
+            <ul>
+              <li><strong>Ph.D. in Data Science</strong>, <br> University of California San Diego, 2024 -</li>
+              <li><strong>M.S. in Computer Science</strong>, <br> University of California San Diego, 2021 - 2023</li>
+              <li><strong>B.Sc. in Electronic Info Sci & Tech</strong>, <br> Jiangsu University of Sci & Tech, 2017 - 2021</li>
+            </ul>
+          </div>
+        
+          <!-- 右侧：News -->
+          <div class="right-column">
+            <h2>🎉 News</h2>
+            <ul>
+              <li><strong>Apr. 2025</strong> – Our paper on <em>CompassX</em> was accepted to <em>ASEE Conference 2025</em>!</li>
+              <li><strong>Apr. 2025</strong> – Our paper on <em>ClearMind</em> was accepted to <em>ASEE Conference 2025</em>!</li>
+              <li><strong>Mar. 2025</strong> – I served as a panelist at the <a href="https://www.ccsc.org/southwestern/2025/tutorials.php">CCSC Southwestern 2025</a>, sharing our work on <em>ClearMind</em>.</li>
+              <li><strong>Jan. 2025</strong> – I will serve as a Student Volunteer for <a href="https://sigcse2025.sigcse.org/">SIGCSE TS 2025</a>!</li>
+              <li><strong>Nov. 2024</strong> – Our work <em>CompassX</em> was accepted as a <a href="https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/158/">poster at SIGCSE 2025</a>!</li>
+            </ul>
+          </div>
+        </div>
+        
+        
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <!-- 左侧：Education -->
             <td style="padding:2.5%;width:40%;vertical-align:top;">
               <h2>🎓 Education</h2>
               <ul>
@@ -153,8 +209,7 @@
                 </li>
               </ul>
             </td>
-        
-            <!-- 右侧：News -->
+
             <td style="padding:2.5%;width:60%;vertical-align:top;">
               <h2>🎉 News</h2>
               <ul>
@@ -169,25 +224,18 @@
                 <li>
                   <strong>Mar. 2025</strong> - I served as a panelist at the <a href="https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind">CCSC Southwestern 2025</a> conference, sharing our work on <em>ClearMind</em>.
                 </li>
-                <!-- https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind -->
 
                 <li>
                   <strong>Jan. 2025</strong> - I will serve as a Student Volunteer for <a href="https://sigcse2025.sigcse.org/">SIGCSE TS 2025</a>! See you in Pittsburgh!
                 </li>
-                <!-- https://sigcse2025.sigcse.org/ -->
                 
                 <li>
                   <strong>Nov. 2024</strong> - Our work <em>CompassX</em> has been accepted as a <a href="https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/158/Student-Usage-of-Metacognition-Promoting-Tool-in-a-CS2-Course-and-its-Relationship-wi">poster at SIGCSE 2025</a>!
                 </li>
-                <!-- https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/158/Student-Usage-of-Metacognition-Promoting-Tool-in-a-CS2-Course-and-its-Relationship-wi -->
-                
-                
-                <!-- <li>Content 2</li>
-                <li>Content 3</li> -->
               </ul>
             </td>
           </tr>
-        </table>
+        </table> -->
 
         
 
@@ -311,11 +359,11 @@
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
               {% endif %}
-              {% if post.paper %}
-              <a href="{{ post.paper }}" style="margin-right:5px;">paper</a>
-              {% endif %}
               {% if post.shortpaper %}
-              <a href="{{ post.shortpaper }}" style="margin-right:5px;">short paper</a>
+              <a href="{{ post.shortpaper }}">short paper</a> / 
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{ post.paper }}">paper</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -483,10 +531,13 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Teaching</h2>
-              <ul>
+              <!-- <ul>
                 <li>COSMOS Cluster Assistant - UC San Diego Jacobs School of Engineering - 2024</li>
-                <!-- <li>Content 2</li>
-                <li>Content 3</li> -->
+              </ul> -->
+              <ul>
+                <li>Teaching Assistant for DSC 30 (<em>Data Structures and Algorithms for Data Science</em>) – UC San Diego – Summer Session 2, 2025</li>
+                <li>COSMOS Teaching Assistant (<em>Machine Learning</em>) – UC San Diego Jacobs School of Engineering – 2025 </li>
+                <li>COSMOS Teaching Assistant (<em>Computers in Everyday Life</em>) – UC San Diego Jacobs School of Engineering – 2024 </li>
               </ul>
             </td>
           </tr>
@@ -498,7 +549,8 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Academic Service</h2>
               <ul>
-                <li>PC Reviewer, <em>ACM SIGCSE TS 2025</em></li>
+                <li>PC Reviewer (Paper - Experience Reports and Tools), <em>ACM SIGCSE TS 2026</em></li>
+                <li>PC Reviewer (Paper - Position and Curricula Initiatives), <em>ACM SIGCSE TS 2025</em></li>
                 <li>Panelist, <em>CCSC Southwestern Conference 2025</em> – <a href="https://www.ccsc.org/southwestern/2025/tutorials.php#:~:text=Overcoming%20Procrastination%3A%20The%20Impact%20and%20Opportunities%20of%20ClearMind">“Overcoming Procrastination: The Impact and Opportunities of ClearMind”</a></li>
 
                 <!-- <li>PC Reviewer for ACM SIGCSE TS 2025</li> -->

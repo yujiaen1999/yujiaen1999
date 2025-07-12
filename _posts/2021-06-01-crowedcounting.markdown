@@ -2,7 +2,7 @@
 layout: post
 title:  "Crowd Counting Based on Deep Learning (Bachelor's Thesis, 2021)"
 date:   2021-06-01 22:21:59 +00:00
-image: /images/crowdcounting2.png
+image: /images/crowdcounting_logo4.png
 categories: research
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>"
