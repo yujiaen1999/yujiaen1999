@@ -7,7 +7,7 @@ image: /images/compassx_logo3.png
 categories: publication
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>*, Ylesia Wu*, Gabriel Cha, Ayush Shah, Sam Lau (* denotes equal contribution)"
-venue: "ACM SIGCSE TS"
+venue: "ACM SIGCSE TS 2026"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
