@@ -6,7 +6,7 @@ date:   2025-09-01 22:21:59 +00:00
 image: /images/compassx_logo3.png
 categories: publication
 author: "Jiaen Yu"
-authors: "<strong>Jiaen Yu</strong>*, Ylesia Wu*, Gabriel Cha, Ayush Shah, Sam Lau"
+authors: "<strong>Jiaen Yu</strong>*, Ylesia Wu*, Gabriel Cha, Ayush Shah, Sam Lau (* denotes equal contribution)"
 venue: "ACM SIGCSE TS, 2026"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
