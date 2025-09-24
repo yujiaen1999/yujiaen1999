@@ -8,7 +8,7 @@ image: /images/compassx_logo3.png
 categories: publication
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>, Anshul Shah, John Driscoll, Yandong Xiang, Xingyin Xu, Sophia Krause-Levy, Soohyun Nam Liao"
-venue: "ACM SIGCSE TS [Poster]"
+venue: "ACM SIGCSE TS [Poster], 2025"
 # paper: https://dl.acm.org/doi/10.1145/3641555.3705256
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
