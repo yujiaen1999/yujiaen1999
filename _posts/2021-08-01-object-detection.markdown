@@ -6,7 +6,7 @@ date:   2021-08-01 22:21:59 +00:00
 categories: publication
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>, Guojun Ma, Yongheng Ren, Yajun Wang"
-venue: "Electronic Design Engineering (China)"
+venue: "Electronic Design Engineering (China), 2021"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
