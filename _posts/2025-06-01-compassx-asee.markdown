@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Engagement with Metacognition-promoting Web-based Interventions and its Relationship with Learning Outcomes 
-[<a href='https://nemo.asee.org/public/conferences/365/papers/48768/view'>link</a>]"
+# title: "Engagement with Metacognition-promoting Web-based Interventions and its Relationship with Learning Outcomes [<a href='https://nemo.asee.org/public/conferences/365/papers/48768/view'>link</a>]"
+title: "<a href='/pdfs/CompassX-paper-ASEE.pdf' style='font-size:16px;'>Engagement with Metacognition-promoting Web-based Interventions and its Relationship with Learning Outcomes</a>"
 date:   2025-01-01 22:21:59 +00:00
 image: /images/compassx_logo3.png
 categories: publication

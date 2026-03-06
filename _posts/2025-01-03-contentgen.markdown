@@ -16,6 +16,7 @@ venue: "ACM SIGCSE TS 2026 (submitted)"
 # shortpaper: https://dl.acm.org/doi/10.1145/3641555.3705256
 # paper: /pdfs/CompassX-paper-ASEE.pdf
 pypi: https://pypi.org/project/contentgen/
+paper: https://dl.acm.org/doi/epdf/10.1145/3770762.3772619
 ---
 ContentGen is an open-source tool that generates programming questions for data science courses using large language models (LLMs). We evaluated the tool through custom metrics and instructor feedback to improve content quality. This project offers a practical approach for improving LLM-generated educational content.
 

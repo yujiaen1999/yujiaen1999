@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Exploring Student Use of an ACT-based Mobile Application and its Impact on Reducing Procrastination 
-[<a href='https://nemo.asee.org/public/conferences/365/papers/48743/view'>link</a>]"
+# title:  "Exploring Student Use of an ACT-based Mobile Application and its Impact on Reducing Procrastination [<a href='https://nemo.asee.org/public/conferences/365/papers/48743/view'>link</a>]"
+title:  "<a href='/pdfs/Clearmind-paper-ASEE.pdf' style='font-size:16px;'>Exploring Student Use of an ACT-based Mobile Application and its Impact on Reducing Procrastination</a>"
 date:   2025-01-01 22:21:59 +00:00
 image: /images/clearmind_logo.png
 categories: publication

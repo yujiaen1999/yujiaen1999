@@ -10,6 +10,7 @@ venue: "[In Submission]"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
+Google_Play: https://play.google.com/store/apps/details?id=com.hdsicsedu.clearmind&hl=en_US
 paper: /pdfs/Clearmind-paper-ASEE.pdf
 ---
 We developed ClearMind, a mobile application to help students overcome academic procrastination by integrating Acceptance and Commitment Therapy (ACT) principles with human-centered design. It offers interactive, evidence-based exercises to support self-regulation and goal-directed learning. Our study explores how digital interventions impact student engagement and procrastination.

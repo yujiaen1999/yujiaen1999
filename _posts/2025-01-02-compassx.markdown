@@ -12,7 +12,7 @@ venue: "ACM SIGCSE TS"
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
 poster: /pdfs/CompassX-poster-SIGCSE2025-v3.pdf
-shortpaper: https://dl.acm.org/doi/10.1145/3641555.3705256
+shortpaper: https://dl.acm.org/doi/epdf/10.1145/3641555.3705256
 paper: /pdfs/CompassX-paper-ASEE.pdf
 ---
 CompassX is a web-based learning application designed to promote metacognitive study behaviors among students in computing courses. It guides students through planning, monitoring, and reflection phases, and helps explore how metacognitive engagement relates to academic performance.
