@@ -15,6 +15,7 @@ venue: "ACM SIGCSE TS 2026 (submitted)"
 # poster: /pdfs/CompassX-poster-SIGCSE2025-v3.pdf
 # shortpaper: https://dl.acm.org/doi/10.1145/3641555.3705256
 # paper: /pdfs/CompassX-paper-ASEE.pdf
+github: https://github.com/dstl-lab/ContentGen-demo
 pypi: https://pypi.org/project/contentgen/
 paper: https://dl.acm.org/doi/epdf/10.1145/3770762.3772619
 ---
