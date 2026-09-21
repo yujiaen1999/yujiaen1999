@@ -7,7 +7,7 @@ image: /images/compassx_logo3.png
 categories: publication
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>, Jinya Jiang, Soohyun Nam Liao"
-venue: "ACM SIGCSE TS, 2026"
+venue: "ACM SIGCSE TS, 2027 [Coming Soon]"
 # arxiv: https://arxiv.org/abs/2308.04571
 # code: https://github.com/leonidk/pairwise
 # website: https://leonidk.github.io/pairwise
