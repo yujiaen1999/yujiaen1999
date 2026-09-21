@@ -3,7 +3,7 @@ layout: post
 title:  "Design of Robot Object Detection Based on Deep Learning"
 date:   2021-08-01 22:21:59 +00:00
 # image: /images/compassx_logo3.png
-categories: publication
+categories: publication-archive
 author: "Jiaen Yu"
 authors: "<strong>Jiaen Yu</strong>, Guojun Ma, Yongheng Ren, Yajun Wang"
 venue: "Electronic Design Engineering (China), 2021"
