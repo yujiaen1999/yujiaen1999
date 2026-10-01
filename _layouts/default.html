@@ -294,21 +294,21 @@
               <p style="margin:0.2em 0; font-style:italic;">{{ post.venue }}</p>
               <!-- <p style="margin:0.2em 0; font-style:italic;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p> -->
               <!-- Links -->
-              <p style="margin:0;">
+              <p class="resource-links" style="margin:0;">
                 {% if post.arxiv %}
-                <a href="{{ post.arxiv }}" style="margin-right:5px;">arxiv</a>
+                <a href="{{ post.arxiv }}">arXiv</a>
                 {% endif %}
                 {% if post.code %}
-                <a href="{{ post.code }}" style="margin-right:5px;">code</a>
+                <a href="{{ post.code }}">Code</a>
                 {% endif %}
                 {% if post.website %}
-                <a href="{{ post.website }}" style="margin-right:5px;">website</a>
+                <a href="{{ post.website }}">Website</a>
                 {% endif %}
                 {% if post.paper %}
-                <a href="{{ post.paper }}" style="margin-right:5px;">paper</a>
+                <a href="{{ post.paper }}">Paper</a>
                 {% endif %}
                 {% if post.shortpaper %}
-                <a href="{{ post.shortpaper }}" style="margin-right:5px;">short paper</a>
+                <a href="{{ post.shortpaper }}">Short paper</a>
                 {% endif %}
               </p>
             </td>
@@ -354,42 +354,44 @@
               <!-- <br> -->
               <!-- <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} -->
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
-              {% endif %}
-              {% if post.shortpaper %}
-              <a href="{{ post.shortpaper }}">short paper</a> / 
-              {% endif %}
-              {% if post.pypi %}
-              <a href="{{ post.pypi }}">PyPI</a> /
-              {% endif %}
-              {% if post.Google_Play %}
-              <a href="{{ post.Google_Play }}">Google Play</a> /
-              {% endif %}
-              {% if post.github %}
-              <a href="{{ post.github }}">GitHub</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{ post.paper }}">paper</a> 
-              {% endif %}
+              <div class="resource-links">
+                {% if post.arxiv %}
+                <a href="{{post.arxiv}}">arXiv</a>
+                {% endif %}
+                {% if post.video %}
+                <a href="{{post.video}}">Video</a>
+                {% endif %}
+                {% if post.code %}
+                <a href="{{post.code}}">Code</a>
+                {% endif %}
+                {% if post.poster %}
+                <a href="{{post.poster}}">Poster</a>
+                {% endif %}
+                {% if post.slides %}
+                <a href="{{post.slides}}">Slides</a>
+                {% endif %}
+                {% if post.website %}
+                <a href="{{post.website}}">Website</a>
+                {% endif %}
+                {% if post.youtube %}
+                <a href="{{post.youtube}}">YouTube</a>
+                {% endif %}
+                {% if post.shortpaper %}
+                <a href="{{ post.shortpaper }}">Short paper</a>
+                {% endif %}
+                {% if post.pypi %}
+                <a href="{{ post.pypi }}">PyPI</a>
+                {% endif %}
+                {% if post.Google_Play %}
+                <a href="{{ post.Google_Play }}">Google Play</a>
+                {% endif %}
+                {% if post.github %}
+                <a href="{{ post.github }}">GitHub</a>
+                {% endif %}
+                {% if post.paper %}
+                <a href="{{ post.paper }}">Paper</a>
+                {% endif %}
+              </div>
               <p></p>
               {{ post.excerpt }}
             </td>

@@ -118,3 +118,36 @@ span.highlight {
 //         radial-gradient(circle at 50% 80%, #f3ecff, transparent 40%),
 //         #ffffff;
 // }
+// Resource links in Publications and Research Projects
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+}
+
+.resource-links a {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px solid #d5e3f3;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #1772d0;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.resource-links a:hover {
+  background-color: #f2f7fd;
+  border-color: #1772d0;
+  color: #1772d0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.resource-links a:focus-visible {
+  outline: 2px solid #1772d0;
+  outline-offset: 2px;
+  color: #1772d0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
