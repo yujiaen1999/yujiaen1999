@@ -76,7 +76,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 <body>
-  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="site-nav-name" href="#about">{{ site.name }}</a>
+    <ul class="site-nav-items">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#service">Service</a></li>
+    </ul>
+  </nav>
+  <table id="about" style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -182,7 +195,7 @@
         <div class="responsive-container">
           <!-- 左侧：Education -->
           <div class="left-column">
-            <h2>🎓 Education</h2>
+            <h2 id="education">🎓 Education</h2>
             <ul>
               <li><strong>Ph.D. in Data Science</strong>, <br> University of California San Diego, 2024 -</li>
               <li><strong>M.S. in Computer Science</strong>, <br> University of California San Diego, 2021 - 2023</li>
@@ -192,7 +205,7 @@
         
           <!-- 右侧：News -->
           <div class="right-column">
-            <h2>🎉 News</h2>
+            <h2 id="news">🎉 News</h2>
             <ul>
               <li><strong>Sept. 2026</strong> – Our work on a <em>data-driven planning intervention</em> was accepted to <a href="https://2027.sigcse-ts.acm.org/details/sigcse-ts-2027-Papers-1/12/Better-Plans-Better-Outcomes-Integrating-Historical-Data-into-Student-Planning-in-a">SIGCSE TS 2027</a>! We will present our paper in Sacramento in February 2027.</li>
               <li><strong>Sept. 2025</strong> – Our work <em>ContentGen</em> was accepted at <a href="https://sigcse2026.sigcse.org/details/sigcse-ts-2026-Papers/121/Improving-LLM-Generated-Educational-Content-A-Case-Study-on-Prototyping-Prompt-Engi">SIGCSE 2026</a>!</li>
@@ -272,7 +285,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>📖 Publications</h2>
+              <h2 id="publications">📖 Publications</h2>
               <!-- <p>(* denotes equal contribution)</p> -->
             </td>
           </tr>
@@ -327,7 +340,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>🌟 Research Projects</h2>
+              <h2 id="projects">🌟 Research Projects</h2>
               <!-- <p>
                 I'm interested in xxxxxxxxxx
               </p> -->
@@ -557,7 +570,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Award</h2>
+              <h2 id="awards">Award</h2>
               <!-- <ul>
                 <li>COSMOS Cluster Assistant - UC San Diego Jacobs School of Engineering - 2024</li>
               </ul> -->
@@ -572,7 +585,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Teaching</h2>
+              <h2 id="teaching">Teaching</h2>
               <!-- <ul>
                 <li>COSMOS Cluster Assistant - UC San Diego Jacobs School of Engineering - 2024</li>
               </ul> -->
@@ -591,7 +604,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Academic Service</h2>
+              <h2 id="service">Academic Service</h2>
               <ul>
                 <li>PC Reviewer (Paper - Experience Reports and Tools), <em>ACM SIGCSE TS 2027</em></li>
                 <li>PC Reviewer (Posters & Paper - Experience Reports and Tools), <em>ACM SIGCSE TS 2026</em></li>
