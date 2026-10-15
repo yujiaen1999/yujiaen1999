@@ -313,3 +313,81 @@ div.resource-links {
     }
   }
 }
+
+// Awards, teaching and academic service
+.experience-sections {
+  padding: 2.5%;
+}
+
+.experience-section + .experience-section {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid #e5eaf0;
+}
+
+.experience-section > h2 {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.experience-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience-list > li + li {
+  margin-top: 16px;
+}
+
+.experience-section .experience-title {
+  display: block;
+  margin: 0;
+  color: #252b33;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.award-list .experience-title {
+  font-weight: 700;
+}
+
+.experience-meta {
+  margin: 3px 0 0;
+  color: #606975;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.award-list > li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 20px;
+}
+
+.experience-year {
+  color: #606975;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.experience-section .experience-group-title {
+  display: block;
+  margin: 22px 0 12px;
+  color: #606975;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.experience-section > h2 + .experience-group-title {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .award-list > li {
+    flex-direction: column;
+  }
+}
