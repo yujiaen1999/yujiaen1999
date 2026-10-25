@@ -378,7 +378,11 @@ div.resource-links {
 
 // Supporting text in publications and education
 .publication-authors,
-.publication-authors a,
+.publication-authors a {
+  color: #000;
+}
+
+.publication-venue,
 .education-meta {
   color: #606975;
 }
