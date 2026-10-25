@@ -199,9 +199,9 @@
           <div class="left-column">
             <h2 id="education">🎓 Education</h2>
             <ul>
-              <li><strong>Ph.D. in Data Science</strong>, <br> University of California San Diego, 2024 -</li>
-              <li><strong>M.S. in Computer Science</strong>, <br> University of California San Diego, 2021 - 2023</li>
-              <li><strong>B.Sc. in Electronic Info Sci & Tech</strong>, <br> Jiangsu University of Sci & Tech, 2017 - 2021</li>
+              <li><strong>Ph.D. in Data Science</strong>, <br> <span class="education-meta">University of California San Diego, 2024 -</span></li>
+              <li><strong>M.S. in Computer Science</strong>, <br> <span class="education-meta">University of California San Diego, 2021 - 2023</span></li>
+              <li><strong>B.Sc. in Electronic Info Sci & Tech</strong>, <br> <span class="education-meta">Jiangsu University of Sci & Tech, 2017 - 2021</span></li>
             </ul>
           </div>
         
@@ -304,7 +304,7 @@
               <!-- Title with larger font size -->
               <h3 style="font-size:1.1em; margin:0; font-weight:bold;">{{ post.title }}</h3>
               <!-- Authors -->
-              <p style="margin:0.2em 0;">{{ post.authors }}</p>
+              <p class="publication-authors" style="margin:0.2em 0;">{{ post.authors | replace: 'Jiaen Yu', '<span class="publication-self">Jiaen Yu</span>' }}</p>
               <!-- Venue -->
               <p style="margin:0.2em 0; font-style:italic;">{{ post.venue }}</p>
               <!-- <p style="margin:0.2em 0; font-style:italic;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p> -->
