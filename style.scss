@@ -168,7 +168,7 @@ div.resource-links {
   box-sizing: border-box;
   // Extend across the browser's default 8px body gutter without changing the content.
   margin: -8px -8px 0;
-  padding: 18px 40px;
+  padding: 12px 40px;
   border-bottom: 1px solid rgba(120, 138, 160, 0.2);
   box-shadow: 0 4px 20px rgba(30, 50, 75, 0.06);
 }
@@ -248,7 +248,7 @@ div.resource-links {
 
 @media screen and (max-width: 768px) {
   .site-nav {
-    padding: 12px 16px;
+    padding: 8px 16px;
   }
 
   .site-nav-toggle {
@@ -292,16 +292,16 @@ div.resource-links {
       to bottom,
       #fff 0%,
       #fff 10%,
-      rgba(255, 255, 255, 0.983) 19%,
-      rgba(254, 255, 255, 0.933) 28.45%,
-      rgba(253, 254, 255, 0.858) 37.9%,
-      rgba(252, 253, 255, 0.768) 47.35%,
-      rgba(251, 252, 255, 0.670) 56.8%,
-      rgba(250, 251, 255, 0.573) 66.25%,
-      rgba(249, 251, 255, 0.487) 75.7%,
-      rgba(248, 250, 255, 0.421) 85.15%,
-      rgba(248, 250, 255, 0.390) 93.25%,
-      rgba(248, 250, 255, 0.38) 100%
+      rgba(255, 255, 255, 0.980) 19%,
+      rgba(254, 255, 255, 0.922) 28.45%,
+      rgba(253, 254, 255, 0.835) 37.9%,
+      rgba(252, 253, 255, 0.731) 47.35%,
+      rgba(251, 252, 255, 0.617) 56.8%,
+      rgba(250, 251, 255, 0.504) 66.25%,
+      rgba(249, 251, 255, 0.404) 75.7%,
+      rgba(248, 250, 255, 0.328) 85.15%,
+      rgba(248, 250, 255, 0.292) 93.25%,
+      rgba(248, 250, 255, 0.28) 100%
     );
     -webkit-backdrop-filter: blur(22px) saturate(160%);
     backdrop-filter: blur(22px) saturate(160%);
@@ -309,7 +309,7 @@ div.resource-links {
 
   @media screen and (max-width: 768px) {
     .site-nav-items {
-      background: rgba(248, 250, 255, 0.38);
+      background: rgba(248, 250, 255, 0.28);
       -webkit-backdrop-filter: blur(22px) saturate(160%);
       backdrop-filter: blur(22px) saturate(160%);
     }
