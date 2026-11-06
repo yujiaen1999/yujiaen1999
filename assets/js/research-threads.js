@@ -9,6 +9,7 @@
   const phaseStart = Number(plot.dataset.phaseStart);
   const phaseLinear = Number(plot.dataset.phaseLinear);
   const phaseQuadratic = Number(plot.dataset.phaseQuadratic);
+  const parallelUntil = Number(plot.dataset.parallelUntil);
   const dots = Object.fromEntries(
     [...plot.querySelectorAll('[data-thread-dot]')].map(dot => [dot.dataset.threadDot, dot])
   );
@@ -34,7 +35,8 @@
 
   function draw() {
     const x = start + position * (end - start);
-    const phase = 2 * Math.PI * (phaseStart + phaseLinear * position + phaseQuadratic * position * position);
+    const progress = Math.max(0, (position - parallelUntil) / (1 - parallelUntil));
+    const phase = 2 * Math.PI * (phaseStart + phaseLinear * progress + phaseQuadratic * progress * progress);
     const offset = amplitude * Math.sin(phase);
     dots.core.setAttribute('transform', `translate(${x} ${center})`);
     dots.hci.setAttribute('transform', `translate(${x} ${center + offset})`);

@@ -437,7 +437,7 @@ div.resource-links {
 .research-threads {
   position: relative;
   margin: 0;
-  padding: 0 2.5% 12px;
+  padding: 0 2.5%;
 }
 
 .research-threads-stage {
@@ -447,7 +447,7 @@ div.resource-links {
 .research-threads-plot {
   display: block;
   width: 100%;
-  height: 156px;
+  height: 104px;
   overflow: visible;
   touch-action: pan-y;
   border-radius: 6px;
@@ -495,7 +495,7 @@ div.resource-links {
   top: 0;
   right: 2.5%;
   width: 165px;
-  height: 156px;
+  height: 104px;
 }
 
 .research-thread-label {
@@ -525,7 +525,7 @@ div.resource-links {
   }
 
   .research-threads-plot {
-    height: 128px;
+    height: 85px;
   }
 
   .research-threads-labels {
@@ -536,7 +536,7 @@ div.resource-links {
     gap: 6px 20px;
     width: auto;
     height: auto;
-    margin: 0 0 12px;
+    margin: 0 0 4px;
   }
 
   .research-thread-label {
@@ -544,4 +544,13 @@ div.resource-links {
     font-size: 14px;
     transform: none;
   }
+}
+
+.profile-social-links {
+  margin-bottom: 0;
+}
+
+.research-threads + .responsive-container > .left-column,
+.research-threads + .responsive-container > .right-column {
+  padding-top: 4px;
 }
